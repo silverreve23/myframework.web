@@ -19,16 +19,17 @@ try{
 	//method given no needs path config mysql file
 	Model::loadModel($handlerRoute, null);
 
-
 	//get handler controller (load file controller)
 	//method return {view} file and no needs parrams
 	//method given handle route ([my]Controller@method)
 	//method given handle url params
 	$arrCtrl = Controller::getHandlerController($handlerRoute, $handlerParams);
 
+	//if empty handle route
 	if(empty($arrCtrl[0]))
 		throw new Exception("Error No Given File View", 16);
 
+	//if empty handle url params
 	if(empty($arrCtrl[1]))
 		$arrCtrl[1] = null;
 		

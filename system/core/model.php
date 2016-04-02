@@ -1,7 +1,7 @@
 <?php
 
 //class Model for processing result mysql query
-class Model{
+class Model extends ExClassCore{
 
 	private static $_tmp_mysql = ROOT.'/config/mysql.php';
 	private static $_strq = null;

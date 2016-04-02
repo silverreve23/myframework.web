@@ -36,7 +36,7 @@
 						    color: black;
 						    border-radius: 0 0 5px 0;
 						    background-color: #688AB0;
-						    padding: 2px 10px;'>user: silver</div>		<!-- One -->
+						    padding: 2px 10px;'>user: puk</div>		<!-- One -->
 			<section id="one" class="wrapper">
 				<div class="inner split">
 					<section>

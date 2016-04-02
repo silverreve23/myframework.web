@@ -29,7 +29,8 @@ class SHtml{
 						  color:$ct;
 						  background-color:$cf;
 						  font-family:arial;
-						  padding:10px;'>$str</div>";
+						  padding:10px;
+						  border-radius: 0 0 5px 0;'>$str</div>";
 	}
 
 }
