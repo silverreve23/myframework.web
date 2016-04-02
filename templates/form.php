@@ -1,0 +1,1 @@
+<div> <?= View::$arrResult['name']; ?> </div>
