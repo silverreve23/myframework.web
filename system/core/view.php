@@ -1,7 +1,7 @@
 <?php
 
 //class View for processing view
-class View extends ExClassCore{
+final class View extends ExClassCore{
 
 	private static $_root_section = ROOT.'/templates/sections/';
 	private static $_arrResult = null;

@@ -1,7 +1,7 @@
 <?php
 
 //class Cache processing cache view
-class Cache{
+final class Cache{
 
 	private static $_tmp_cache = ROOT.'/config/cache.php';
 

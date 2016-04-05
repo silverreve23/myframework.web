@@ -2,7 +2,7 @@
 
 //class controller (core)
 //class extends ExClassCore (ex_class_core.php)
-class Controller extends ExClassCore{
+final class Controller extends ExClassCore{
 
 	//method return handler controller of url
 	//method given array ($handler_route => array) and url parrams ($url_params)

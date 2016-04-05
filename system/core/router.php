@@ -1,7 +1,7 @@
 <?php
 
 //class Router from processing route url
-class Router extends ExClassCore{
+final class Router extends ExClassCore{
 
 	private static $_req_method = null;
 	private static $_route = null;
