@@ -40,7 +40,9 @@ final class View extends ExClassCore{
 			self::$_arrResult = $results;
 			$file_inc_v = ROOT.'/templates/'.strtolower($name_v).'.php';
 
-			if(file_exists($file_inc_v))
+
+			//include file view 
+			if(file_exists($file_inc_v) and is_string($name_v))
 				include $file_inc_v;
 			else
 				throw new Exception("Error Include File View", 6);

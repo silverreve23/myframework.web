@@ -25,9 +25,9 @@ try{
 	//method given handle url params
 	$arrCtrl = Controller::getHandlerController($handlerRoute, $handlerParams);
 
-	//if empty handle route
+	//if empty handle name view 
 	if(empty($arrCtrl[0]))
-		throw new Exception("Error No Given File View", 16);
+		$arrCtrl[0] = false;
 
 	//if empty handle url params
 	if(empty($arrCtrl[1]))
@@ -38,7 +38,8 @@ try{
 	//load file template (view)
 	//method given name file view
 	//method given no needs array result
-	View::loadTemplate($tmpView, $arrResult);
+	if($arrCtrl[0] !== false)
+		View::loadTemplate($tmpView, $arrResult);
 
 }catch(Exception $e){
 
