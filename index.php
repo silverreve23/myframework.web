@@ -44,7 +44,7 @@ try{
 }catch(Exception $e){
 
 	//echo error exceptions whise style
-	SHtml::styleEror($e->getMessage());
+	SHtml::styleError($e->getMessage());
 }
 
 

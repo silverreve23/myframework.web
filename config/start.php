@@ -11,5 +11,6 @@ include_once ROOT.'/system/core/view.php';
 require_once ROOT.'/system/libs/libController.php';
 require_once ROOT.'/system/libs/sarray.php';
 require_once ROOT.'/system/libs/shtml.php';
+require_once ROOT.'/system/libs/smessage.php';
 require_once ROOT.'/system/libs/session.php';
 

@@ -37,8 +37,10 @@ final class Router extends ExClassCore{
 
 		if(!empty($handler_val))
 			return array($handler_val, $url_array);
-		else
+		else if(file_exists('404.php'))
 			die(include_once '404.php');
+		else
+			die(SHtml::styleError('Sorry... Page Non Found!'));
 			
 	}
 

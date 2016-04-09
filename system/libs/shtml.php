@@ -21,7 +21,7 @@ class SHtml{
 
 	//style Eror
 	//method given str, color text, color fon
-	public static function styleEror($str, $ct = 'white', $cf = '#688AB0'){
+	public static function styleError($str, $ct = 'white', $cf = '#688AB0'){
 
 		echo "<div style='position:fixed;
 						  left:0;
